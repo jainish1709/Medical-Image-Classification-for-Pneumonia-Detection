@@ -1,0 +1,30 @@
+# Core Deep Learning
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+
+# Image Processing
+opencv-python==4.10.0.84
+Pillow==10.4.0
+
+# Data Science
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Progress Bars
+tqdm==4.66.5
+
+# Model Utilities
+timm==1.0.8
+
+# Jupyter (optional)
+jupyter==1.1.1
+ipykernel==6.29.5
+
+# Utilities
+pyyaml==6.0.2

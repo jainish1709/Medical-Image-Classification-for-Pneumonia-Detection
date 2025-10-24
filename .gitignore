@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Dataset (Large files - don't upload)
+data/raw/chest_xray/
+data/raw/*.zip
+data/raw/*.tar.gz
+data/processed/
+
+# Models (Large files - don't upload)
+models/saved_models/*.pth
+models/saved_models/*.pt
+models/saved_models/*.onnx
+
+# Results (Can be regenerated)
+results/plots/*.png
+results/plots/*.jpg
+results/metrics/*.json
+results/metrics/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets
+kaggle.json
+.env
+*.key
+
+# Logs
+*.log
+
+*.zip
